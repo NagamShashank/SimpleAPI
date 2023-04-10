@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         Call<Model> call = apiInterface.getData();
 
         call.enqueue(new Callback<Model>() {
+
             @Override
             public void onResponse(Call<Model> call, Response<Model> response) {
 
