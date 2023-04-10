@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<Model> call, Response<Model> response) {
 
-
                 if(response.code()!= 200){
                     binding.UserName.setText("Check the Connection");
                     return;
